@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_custom.ControlButtons" t-inherit="point_of_sale.ControlButtons" t-inherit-mode="extension">
+
+        <xpath expr="//button[@class='btn btn-light btn-lg flex-shrink-0 ms-auto']" position="before">
+            <button class="btn btn-light btn-lg flex-shrink-0 ms-auto"
+                    t-on-click="() => this.onClickPopupSingleField()">Custom Button</button>
+        </xpath>
+
+
+        <xpath expr="//t[@t-if='props.showRemainingButtons']/div/OrderlineNoteButton" position="after">
+            <button class="btn btn-secondary btn-lg py-5" t-on-click="() => this.onClickPopupSingleField()">
+                 <i class="fa fa-pencil-square me-1" role="img" aria-label="Custom Alert" title="Custom Alert"/>Custom
+                Button
+             </button>
+        </xpath>
+
+  </t>
+</templates>
