@@ -13,7 +13,7 @@ patch(ControlButtons.prototype, {
             getPayload: async (code,code2) => {
                 let cnic = code.trim();
 
-               console.log('Ready to use',cnic);
+               console.log('Ready to use cnic: ',cnic);
             },
         });
     },
