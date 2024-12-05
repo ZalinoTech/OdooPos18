@@ -12,6 +12,9 @@
     'depends': ['base', 'point_of_sale'],
     'assets': {
         'point_of_sale._assets_pos': [
+            'pos_custom/static/src/app/custom_popup/text_input_popup.js',
+            'pos_custom/static/src/app/custom_popup/text_input_popup.xml',
+
             'pos_custom/static/src/app/custom_button/custom_button.js',
             'pos_custom/static/src/app/custom_button/custom_button.xml',
         ],
