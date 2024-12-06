@@ -25,19 +25,9 @@ This project focuses on enhancing Odoo POS Version 18 by adding new functionalit
 ---
 
 ## **Features**
-### **Version 1.0**
-- Initial release of `pos_custom`.
-- Added custom discount functionality.
-- Optimized product search in the POS interface.
-
-### **Version 1.1**
-- Introduced a bulk pricing feature for wholesale customers.
-- Limited the number of items that can be added per order.
-
-### **Upcoming Features**
-- Support for multi-currency transactions.
-- Integration with external payment gateways.
-- Enhanced inventory tracking in POS.
+### **Version03**
+- Integrating a Custom Popup Window: This section focuses on implementing a custom popup window within the POS interface. The tutorial demonstrates how to create and configure a popup that seamlessly integrates with the existing POS workflow, providing users with an interactive and visually engaging interface.
+- Implementing a Click Event for the Popup: Learn how to handle click events effectively to trigger the custom popup. This step explains the process of attaching an event listener to a button, ensuring the popup opens with a smooth and responsive user experience. The tutorial also covers how to manage user interactions within the popup.
 
 ---
 
