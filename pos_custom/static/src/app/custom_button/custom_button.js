@@ -5,15 +5,17 @@ import { ControlButtons } from "@point_of_sale/app/screens/product_screen/contro
 import { patch } from "@web/core/utils/patch";
 import { TextInputPopup } from "@pos_custom/app/custom_popup/text_input_popup";
 
+import { rpc } from "@web/core/network/rpc";
+
 patch(ControlButtons.prototype, {
     async onClickPopupSingleField() {
         this.dialog.add(TextInputPopup, {
-            title: _t("To Apply Discount, Enter CNIC & Code"),
+            title: _t("To Apply Discount, Enter CNIC"),
             placeholder: _t("Enter CNIC"),
             getPayload: async (code,code2) => {
                 let cnic = code.trim();
-
-               console.log('Ready to use cnic: ',cnic);
+                console.log('Ready to use cnic: ',cnic);
+                alert('I am Ready!');
             },
         });
     },
