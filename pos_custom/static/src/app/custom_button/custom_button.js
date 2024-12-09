@@ -53,6 +53,7 @@ patch(ControlButtons.prototype, {
                         return;
                 }
 
+               console.log('Ready to use cnic:',cnic);
             },
         });
     },
