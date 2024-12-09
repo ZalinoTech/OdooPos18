@@ -25,9 +25,26 @@ This project focuses on enhancing Odoo POS Version 18 by adding new functionalit
 ---
 
 ## **Features**
-### **Version03**
-- Integrating a Custom Popup Window: This section focuses on implementing a custom popup window within the POS interface. The tutorial demonstrates how to create and configure a popup that seamlessly integrates with the existing POS workflow, providing users with an interactive and visually engaging interface.
-- Implementing a Click Event for the Popup: Learn how to handle click events effectively to trigger the custom popup. This step explains the process of attaching an event listener to a button, ensuring the popup opens with a smooth and responsive user experience. The tutorial also covers how to manage user interactions within the popup.
+### **Version04**
+
+In the previous versions, we explored how to:
+
+- Add a custom popup window.
+- Implement button click events.
+
+Now, in this version, we will go a step further and learn about:
+
+- Creating custom popups and buttons with enhanced functionality.
+- Capturing and utilizing the data entered by the user in a popup.
+- Making RPC calls from the POS interface to interact with the backend.
+- Implementing robust exception handling for error management.
+- Accessing and processing orders and order lines programmatically.
+- Applying discounts to order lines dynamically.
+- Exploring advanced techniques to extend and customize POS features.
+
+These enhancements will empower you to tailor the POS system according to unique business requirements. By the end of this version, you will gain in-depth knowledge to develop and manage custom POS functionalities seamlessly.
+
+Stay tuned as we dive into practical examples, step-by-step tutorials, and tips for optimizing your POS workflows. Let’s get started!
 
 ---
 
