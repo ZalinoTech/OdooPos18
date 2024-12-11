@@ -9,7 +9,13 @@
     'company': 'zalino',
     'maintainer': 'Nil',
     'website': 'https://www.zalinotech.com',
-    'depends': ['base', 'point_of_sale'],
+    'depends': ['base', 'point_of_sale','hr'],
+    'data': [
+
+        'views/product_template.xml',
+        'views/hr_employee.xml',
+
+    ],
     'assets': {
         'point_of_sale._assets_pos': [
             'pos_custom/static/src/app/custom_popup/text_input_popup.js',
