@@ -35,7 +35,8 @@ patch(ControlButtons.prototype, {
                     );
                     if (result.success) {
                         orderLines.forEach(line => {
-                            line.set_unit_price(line.product_id.lst_price - (line.product_id.lst_price* 5/100)); // Update the price
+                            //line.set_unit_price(line.product_id.price_for_employee || line.product_id.lst_price); // Update the price
+                            line.set_unit_price(line.product_id.price_for_employee || line.product_id.lst_price); // Update the price
                         });
 //                        order.cnic = cnic;
                     } else {

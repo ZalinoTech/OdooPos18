@@ -25,14 +25,9 @@ This project focuses on enhancing Odoo POS Version 18 by adding new functionalit
 ---
 
 ## **Features**
-### **Version04**
+### **Version05**
 
 In the previous versions, we explored how to:
-
-- Add a custom popup window.
-- Implement button click events.
-
-Now, in this version, we will go a step further and learn about:
 
 - Creating custom popups and buttons with enhanced functionality.
 - Capturing and utilizing the data entered by the user in a popup.
@@ -41,6 +36,17 @@ Now, in this version, we will go a step further and learn about:
 - Accessing and processing orders and order lines programmatically.
 - Applying discounts to order lines dynamically.
 - Exploring advanced techniques to extend and customize POS features.
+
+
+This repository demonstrates advanced Odoo 18 Point of Sale (POS) customization techniques, covering the following features:
+
+- Demonstrates how to add and load new fields in Odoo POS 18.
+- Explains the process of using backend fields in the POS system.
+- Guides on adding fields to existing models in Odoo.
+- Covers the inheritance of templates to enhance existing views by adding fields.
+- Shows how to implement special discounts for employees based on a custom field in product records.
+- How Controllers Work, by adding a custom controller to validate employee
+
 
 These enhancements will empower you to tailor the POS system according to unique business requirements. By the end of this version, you will gain in-depth knowledge to develop and manage custom POS functionalities seamlessly.
 
@@ -79,9 +85,6 @@ The project uses Git for version control. Each version corresponds to a specific
 - **Main Branch:** Stable releases.
 - **Feature Branches:** Development of new features.
 
-### **Release Tags**
-- `v1.0`: Initial release of the POS Version 18 Custom module.
-- `v1.1`: Bulk pricing and item limitation feature.
 
 ---
 

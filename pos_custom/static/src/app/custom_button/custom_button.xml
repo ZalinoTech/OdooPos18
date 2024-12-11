@@ -4,14 +4,13 @@
 
         <xpath expr="//button[@class='btn btn-light btn-lg flex-shrink-0 ms-auto']" position="before">
             <button class="btn btn-light btn-lg flex-shrink-0 ms-auto"
-                    t-on-click="() => this.onClickPopupSingleField()">Custom Button</button>
+                    t-on-click="() => this.onClickPopupSingleField()">Employee Discount</button>
         </xpath>
 
 
         <xpath expr="//t[@t-if='props.showRemainingButtons']/div/OrderlineNoteButton" position="after">
             <button class="btn btn-secondary btn-lg py-5" t-on-click="() => this.onClickPopupSingleField()">
-                 <i class="fa fa-pencil-square me-1" role="img" aria-label="Custom Alert" title="Custom Alert"/>Custom
-                Button
+                 <i class="fa fa-pencil-square me-1" role="img" aria-label="Custom Alert" title="Custom Alert"/>Employee Discount
              </button>
         </xpath>
 
